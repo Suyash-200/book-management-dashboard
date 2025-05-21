@@ -1,12 +1,70 @@
-# React + Vite
+# 📚 Book Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React.js dashboard that allows users to **fetch**, **display**, and **perform CRUD operations** on a list of books using a mock API.
 
-Currently, two official plugins are available:
+## 🔹 Objective
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is built as a **React.js Developer Assessment Task** to demonstrate skills in component-based design, API integration, state management, and UI/UX best practices.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Features
+
+### 📋 Home Page (Dashboard)
+- Displays a **list of books** in a table/grid layout
+- Each book includes:
+  - Title
+  - Author
+  - Genre
+  - Published Year
+  - Status (Available / Issued)
+- **Pagination** (10 books per page)
+- **Search** functionality (by title or author)
+- **Filters** for genre and status
+
+### ➕ Add / ✏️ Edit Book
+- Accessible via modal or dedicated route
+- Uses `react-hook-form` or `Formik` for validations
+- Submits book data via POST/PUT API requests
+
+### 🗑️ Delete Book
+- Confirmation popup before deletion
+- Toast notifications for success/error feedback
+
+### 🎨 Styling & Design
+- Built using [Tailwind CSS](https://tailwindcss.com/) or any modern UI library (e.g., Material UI, Ant Design)
+- Fully **responsive** and follows **UX best practices**
+
+---
+
+## 🔗 API Integration
+
+You can use one of the following mock APIs:
+
+- [`https://crudcrud.com`](https://crudcrud.com)
+- [`https://reqres.in`](https://reqres.in)
+- [`json-server`](https://github.com/typicode/json-server) (recommended for local development)
+
+### API Endpoints:
+- `GET /books`
+- `POST /books`
+- `PUT /books/:id`
+- `DELETE /books/:id`
+
+---
+
+## 🌟 Bonus Features (Optional Enhancements)
+
+- Loading **skeletons** or **spinners** during fetch operations
+- Use of **React Query** or **SWR** for efficient data fetching
+- State management using **Redux** or **Context API**
+- **React Router** for routing/navigation
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/book-dashboard.git
+cd book-dashboard

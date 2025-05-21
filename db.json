@@ -1,0 +1,92 @@
+{
+  "books": [
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "publishedYear": 1960,
+      "status": "Available"
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Fiction",
+      "publishedYear": "1940",
+      "status": "Issued"
+    },
+    {
+      "id": "de2a",
+      "title": "ssss",
+      "author": "ssss",
+      "genre": "Non-Fiction",
+      "publishedYear": "2022",
+      "status": "Issued"
+    },
+    {
+      "id": "8906",
+      "title": "erfhruihf",
+      "author": "flrkijeir",
+      "genre": "Fiction",
+      "publishedYear": "2020",
+      "status": "Available"
+    },
+    {
+      "id": "b4bc",
+      "title": "Test 1",
+      "author": "Author 1",
+      "genre": "Non-Fiction",
+      "publishedYear": "1990",
+      "status": "Available"
+    },
+    {
+      "id": "45d7",
+      "title": "Test 2",
+      "author": "Author 2",
+      "genre": "Fiction",
+      "publishedYear": "1890",
+      "status": "Available"
+    },
+    {
+      "id": "4e9a",
+      "title": "Test 3",
+      "author": "Author 3",
+      "genre": "Science Fiction",
+      "publishedYear": "1890",
+      "status": "Available"
+    },
+    {
+      "id": "1e9a",
+      "title": "Test 5",
+      "author": "Author 5",
+      "genre": "Non-Fiction",
+      "publishedYear": "1980",
+      "status": "Available"
+    },
+    {
+      "id": "42fb",
+      "title": "Test 7",
+      "author": "Author 7",
+      "genre": "Non-Fiction",
+      "publishedYear": "1980",
+      "status": "Available"
+    },
+    {
+      "id": "2b7f",
+      "title": "Test 8",
+      "author": "Author 8",
+      "genre": "Science Fiction",
+      "publishedYear": "1907",
+      "status": "Available"
+    },
+    {
+      "id": "0493",
+      "title": "Test 9",
+      "author": "Author 9",
+      "genre": "Science Fiction",
+      "publishedYear": "1908",
+      "status": "Available"
+    }
+  ]
+}
